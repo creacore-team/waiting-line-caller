@@ -1,10 +1,9 @@
-import { Server, get } from "http";
-import { address } from "ip";
-import googleTTS from "google-tts-api";
-
 var app = require('express')();
-var server = Server(app);
+var http = require('http');
+var server = http.Server(app);
 var io = require('socket.io')(server);
+var ip = require('ip');
+var googleTTS = require('google-tts-api');
 
 /**
  * Local vars
