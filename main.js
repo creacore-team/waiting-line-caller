@@ -10,8 +10,8 @@ var googleTTS = require('google-tts-api');
  */
 var speak_lang = 'en';
 var sentences_callNext = [
-    "Your attention please. The number %counter%, can come to %where%",
-    "Thank you for waiting for number %counter%. Please go to %where%"
+    "Your attention please. The number %counter%, can go to %where%",
+    "Thank you for waiting number %counter%. Please go to %where%"
 ];
 
 var counter = 0;
