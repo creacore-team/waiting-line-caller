@@ -23,7 +23,7 @@ var users = [];
  */
 server.listen(8080);
 console.log("Client adress: http://"+address()+":8080/client");
-console.log("Counter viewer: http://"+address()+":8080/vue");
+console.log("Counter viewer: http://"+address()+":8080/viewer");
 
 /**
  * Routes
@@ -34,7 +34,7 @@ app.get('/client', function(req, res) {
     });
 });
 
-app.get('/vue', function(req, res) {
+app.get('/viewer', function(req, res) {
     res.render('vue.ejs', {
         'server_ip': address()
     });
