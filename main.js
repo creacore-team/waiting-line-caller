@@ -29,13 +29,13 @@ console.log("Counter viewer: http://" + ip.address() + ":8080/viewer");
  */
 app.get('/client', function(req, res) {
     res.render('client.ejs', {
-        'server_ip': address()
+        'server_ip': ip.address()
     });
 });
 
 app.get('/viewer', function(req, res) {
-    res.render('vue.ejs', {
-        'server_ip': address()
+    res.render('viewer.ejs', {
+        'server_ip': ip.address()
     });
 });
 
