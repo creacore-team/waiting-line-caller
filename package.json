@@ -1,0 +1,19 @@
+{
+    "name": "call-counter",
+    "version": "1.0.0",
+    "description": "Example of a voice counter to call a number sequence for a queue",
+    "main": "main.js",
+    "dependencies": {
+        "ejs": "^2.5.6",
+        "express": "^4.15.3",
+        "google-tts-api": "0.0.1",
+        "ip": "^1.1.5",
+        "socket.io": "^2.0.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "creacore.be",
+    "license": "MIT"
+}
