@@ -1,0 +1,35 @@
+# Call counter (with voices)
+
+## Description
+
+Example of a voice counter to call a number sequence for a queue with NodeJS.
+
+## Usage
+
+Install dependencies with
+
+    npm i
+
+After that you can run the main.js script with
+
+    node main.js
+
+The server will start and open two access (default port: 8080)
+
+- http://<IP>:8080/client
+- http://<IP>:8080/viewer
+
+### Client
+
+Enter your username and click on the "connect" button. Then you will able to call the next number or to set the counter at a custom value.
+
+### Viewer
+
+Display the last 5 numbers called.
+
+When a new number is called, a Google TTS voice will start.
+
+You can customize the sentences spoken in the main.js file (sentences_callNext)
+
+
+Enjoy !
