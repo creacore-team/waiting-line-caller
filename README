@@ -2,7 +2,7 @@
 
 ## Description
 
-Example of a voice counter to call a number sequence for a queue with NodeJS.
+Basic queue manager to call a number sequence with NodeJS. You can connect multiple clients (desk) for calling numbers and run a counter state viewer. Every number will be announced with a TTS voice using a predefined random sentence.
 
 ## Usage
 
@@ -29,7 +29,7 @@ Display the last 5 numbers called.
 
 When a new number is called, a Google TTS voice will start.
 
-You can customize the sentences spoken in the main.js file (sentences_callNext)
+You can customize the sentences used in the main.js file (sentences_callNext)
 
 
 Enjoy !

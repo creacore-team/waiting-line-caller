@@ -1,7 +1,7 @@
 {
-    "name": "call-counter",
+    "name": "queue-manager",
     "version": "1.0.0",
-    "description": "Example of a voice counter to call a number sequence for a queue",
+    "description": "Queue manager (multiple clients, server and display with voice counter)",
     "main": "main.js",
     "dependencies": {
         "ejs": "^2.5.6",
