@@ -21,8 +21,8 @@ var users = [];
  * Initialization
  */
 server.listen(8080);
-console.log("Client adress: http://"+address()+":8080/client");
-console.log("Counter viewer: http://"+address()+":8080/viewer");
+console.log("Client adress: http://" + ip.address() + ":8080/client");
+console.log("Counter viewer: http://" + ip.address() + ":8080/viewer");
 
 /**
  * Routes
