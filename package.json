@@ -1,7 +1,7 @@
 {
-    "name": "queue-manager",
+    "name": "waiting-line-caller",
     "version": "1.0.0",
-    "description": "Queue manager (multiple clients, server and display with voice counter)",
+    "description": "Waiting line caller (multiple clients, server and display with voice counter)",
     "main": "main.js",
     "dependencies": {
         "ejs": "^2.5.6",
