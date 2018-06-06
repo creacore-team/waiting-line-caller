@@ -1,4 +1,4 @@
-# Call counter (with voices)
+# Waiting line caller (with voices)
 
 ## Description
 
